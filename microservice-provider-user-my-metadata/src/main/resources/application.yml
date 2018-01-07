@@ -24,3 +24,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://user:password123@localhost:8861/eureka/
+  instance:
+    metadata-map:
+      my-metadata: 我自定义的元素据
